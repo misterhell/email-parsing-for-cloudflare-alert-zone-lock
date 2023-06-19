@@ -1,0 +1,13 @@
+version: "3.8"
+
+
+
+services:
+
+  emailparser:
+    build: .
+    volumes:
+      - .:/app/parser
+
+
+
